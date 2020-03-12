@@ -1,0 +1,2 @@
+mxnet==1.6.0
+sagemaker==1.50.12

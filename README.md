@@ -7,8 +7,9 @@
 - AWS Account
 - Install CDK
 - Node 10.x
+- Python3.x
 
-# Usage
+# Deploy
 
 1. Install dependencies
 
@@ -28,6 +29,22 @@ $ cdk deploy
 ```
 
 * place your own `model.params` to [model](model) directory and modify [code/inference.py](code/inference.py) properly. current `inference.py` uses pretrained model.
+
+# Invoke Endpoint
+
+0. change director to root of the repo.
+
+1. Install depencendies
+
+```bash
+$ pip install -r requirements.txt
+```
+
+2. Run script
+
+``` bash
+$ python invoke.py
+```
 
 # Cleanup
 
