@@ -13,6 +13,7 @@
 1. Install dependencies
 
 ```bash
+$ cd infra
 $ npm i 
 ```
 
